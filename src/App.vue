@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-      img(src='https://aldaircoyote.github.io/Choca-Music/dist/logo.png')
+      img(src='https://aldaircoyote.github.io/Choca-Music/src/assets/logo.png')
       h1 Vue Music
       select(v-model="selectedCountry")
         option(v-for="country in countries" :value="country.value") {{ country.name }}
